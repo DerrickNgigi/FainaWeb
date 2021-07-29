@@ -32,3 +32,7 @@ Route::get('/Faina-We-listen-then-and-find-an-innovative-solution', function () 
     return view('contact');
 })->name('contact-us');
 
+Route::get('/Faina_Agric', function () {
+    return view('shambaAssistant.shambaHome');
+})->name('fainaAgriculture');
+

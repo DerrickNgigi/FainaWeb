@@ -47,7 +47,7 @@
                         <div class="xn-portfolio-thumb grad-overlay">
                             <img src="img/portfolio/m-06.jpg" alt="">
                             <div class="port-view">
-                                <a class="popup-image" href="img/portfolio/m-01.jpg"><i class="far fa-search"></i></a>
+{{--                                <a class="popup-image" href="img/portfolio/m-01.jpg"><i class="far fa-search"></i></a>--}}
                                 <a class="port-link" href="portfolio-single-1.html"><i class="far fa-link"></i></a>
                                 <div></div>
                                 <h3>FAINA Edu-Tech</h3>
@@ -61,7 +61,7 @@
                             <img src="img/portfolio/m-01.jpg" alt="">
                             <div class="port-view">
                                 <a class="popup-image" href="img/portfolio/m-01.jpg"><i class="far fa-search"></i></a>
-                                <a class="port-link" href="portfolio-single-1.html"><i class="far fa-link"></i></a>
+                                <a class="port-link" href="{{route("fainaAgriculture")}}"><i class="far fa-link"></i></a>
                                 <div></div>
                                 <h3>Faina Agri-Tech</h3>
                             </div>
