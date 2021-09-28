@@ -25,14 +25,14 @@ Route::get('/Welcome-to-Faina-for-the-best-3D-Printing-PCD-Design-and-Product-De
 Route::get('/Faina-Youth-lead-Tech-Company', function () {
     return view('about');
 })->name('about');
-Route::get('/Faina-Kenya-company-innovating-around-the-agriculture-and-tech-space', function () {
+Route::get('/Faina-Kenya-company-innovating-around-the-agriculture-and-edu-tech-space', function () {
     return view('innovations');
 })->name('innovations');
 Route::get('/Faina-We-listen-then-and-find-an-innovative-solution', function () {
     return view('contact');
 })->name('contact-us');
 
-Route::get('/Faina_Agric', function () {
+Route::get('/shambaAssistant', function () {
     return view('shambaAssistant.shambaHome');
 })->name('fainaAgriculture');
 

@@ -95,20 +95,19 @@
                 <div class="col-xl-8 col-lg-10 offset-lg-1 offset-xl-2">
                     <div class="section-title-2 text-center mb-70">
                         <h2 class="mb-20">Making 4th Industrial Technology Possible in your Projects and Business</h2>
-                        <p>Land from day very fill that midst stars one dominion. Itself was let that divided itself god don't subdue wherein let
-                            behold over he whose of sea moved called.</p>
+                        <p>Implement efficiency in your business and Prototype development using new revolutionary Artificial Intelligence, Internet of things and Machine learning technologies. </p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="feal-list-4-item mb-30">
+                    <div class="feal-list-4-item active mb-30">
                         <div class="fea-list-4-img mb-40">
                             <img src="img/icon/gea-01.png" alt="">
                         </div>
                         <h3>Product Design</h3>
-                        <p>Behold living. Creeping gathered give sea third multiply midst winged tree bring wherein living itsmoving our him dry female his lights herb.</p>
-                        <a href="#">learn more <i class="ti-arrow-right"></i></a>
+                        <p>Get Engineering drawing and designs for custom made products. These includes simulations, design calculations and specifications.</p>
+{{--                        <a href="#">learn more <i class="ti-arrow-right"></i></a>--}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
@@ -117,41 +116,41 @@
                             <img src="img/icon/gea-02.png" alt="">
                         </div>
                         <h3>PCB Design</h3>
-                        <p>Behold living. Creeping gathered give sea third multiply midst winged tree bring wherein living itsmoving our him dry female his lights herb.</p>
-                        <a href="#">learn more <i class="ti-arrow-right"></i></a>
+                        <p>We design customized Printed Circuits Boards (PCBs) for custom projects and products for all preferable micro-controllers. We also help with fabrications through our partner companies. </p>
+{{--                        <a href="#">learn more <i class="ti-arrow-right"></i></a>--}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="feal-list-4-item mb-30">
+                    <div class="feal-list-4-item mb-30 active">
                         <div class="fea-list-4-img mb-40">
                             <img src="img/icon/gea-03.png" alt="">
                         </div>
                         <h3>3D Printing</h3>
-                        <p>Behold living. Creeping gathered give sea third multiply midst winged tree bring wherein living itsmoving our him dry female his lights herb.</p>
-                        <a href="#">learn more <i class="ti-arrow-right"></i></a>
+                        <p>Bring your 3D Designs and custom models to reality with 3D printing in Faina. We offer first class product policing and post processing giving your that classical look on your products.</p>
+{{--                        <a href="#">learn more <i class="ti-arrow-right"></i></a>--}}
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-3">
 
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="feal-list-4-item mb-30">
+                    <div class="feal-list-4-item mb-30 active">
                         <div class="fea-list-4-img mb-40">
                             <img src="img/icon/gea-03.png" alt="">
                         </div>
                         <h3>Software Development </h3>
-                        <p>Behold living. Creeping gathered give sea third multiply midst winged tree bring wherein living itsmoving our him dry female his lights herb.</p>
-                        <a href="#">learn more <i class="ti-arrow-right"></i></a>
+                        <p>Business and Projects are never quite complete without automation and simplicity of software. We develop web and mobile applications.</p>
+{{--                        <a href="#">learn more <i class="ti-arrow-right"></i></a>--}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="feal-list-4-item mb-30">
+                    <div class="feal-list-4-item mb-30 active">
                         <div class="fea-list-4-img mb-40">
                             <img src="img/icon/gea-03.png" alt="">
                         </div>
                         <h3>Artificial Intelligence and Machine Learning</h3>
-                        <p>Behold living. Creeping gathered give sea third multiply midst winged tree bring wherein living itsmoving our him dry female his lights herb.</p>
-                        <a href="#">learn more <i class="ti-arrow-right"></i></a>
+                        <p>Want a touch of sophistication in your business and project. Worry no more Faina go you. We develop artificial intelligence and machine learning applications i.e image recognition apps </p>
+{{--                        <a href="#">learn more <i class="ti-arrow-right"></i></a>--}}
                     </div>
                 </div>
             </div>
@@ -187,15 +186,17 @@
             <div class="row pt-50">
                 <div class="col-xl-6 col-lg-6">
                     <div class="xn-about-content mb-30 pt-40 pr-50">
-                        <h2>Business Mechanisms to
+                        <h2>Adaptive and Disruptive innovations to
                             Accelerate Change</h2>
-                        <p>Quality design work, advanced simulations to deliver robust solutions for your business.</p>
+                        <p>We promote disruptive innovations with quality design work and advanced simulations to accelerate prototype development and deliver robust solutions for your business and projects.</p>
                         <ul>
-                            <li><i class="ti-check-box"></i> <span>Together blessed own them to beginning own forth create</span>
+                            <li><i class="ti-check-box"></i> <span>Design</span>
                             </li>
-                            <li><i class="ti-check-box"></i> <span>Together blessed own them to beginning own forth create</span>
+                            <li><i class="ti-check-box"></i> <span>Prototype</span>
                             </li>
-                            <li><i class="ti-check-box"></i> <span>Together blessed own them to beginning own forth create</span>
+                            <li><i class="ti-check-box"></i> <span>Redesign</span>
+                            </li>
+                            <li><i class="ti-check-box"></i> <span>Deploy</span>
                             </li>
                         </ul>
 {{--                        <div data-aos="fade-up">--}}

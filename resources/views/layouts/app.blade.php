@@ -81,7 +81,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo">
-                            <a href="index.html"> <img src="img/logo/logo-white.png" alt=""> </a>
+                            <a href="{{route('home')}}"> <img src="img/logo/logo-white.png" alt=""> </a>
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-8 position-static">
@@ -126,7 +126,7 @@
                     <div class="footer-widget mb-40">
                         <div class="footer-text">
                             <img src="img/logo/logo.png" alt="">
-                            <p>Winged moving moveth created for shall and a divide the their days male midst shall hath doesn't won't for. Midst life.Over a great night. Green upon years rule ying.</p>
+                            <p>Pioneering Smart Engineering Solutions</p>
                         </div>
                         <div class="footer-social">
                             <a href="#"><i class="ti-facebook"></i></a>
@@ -137,26 +137,25 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-3 col-md-4">
-                    <div class="footer-widget mb-40">
-                        <h3>About Us</h3>
-                        <ul>
-                            <li><a href="#">Managed Website</a></li>
-                            <li><a href="#">Power Tools</a></li>
-                            <li><a href="#">Marketing Service</a></li>
-                            <li><a href="#">Customer Service</a></li>
-                            <li><a href="#">Manage Reputation</a></li>
-                        </ul>
-                    </div>
+{{--                    <div class="footer-widget mb-40">--}}
+{{--                        <h3>About Us</h3>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#">Managed Website</a></li>--}}
+{{--                            <li><a href="#">Power Tools</a></li>--}}
+{{--                            <li><a href="#">Marketing Service</a></li>--}}
+{{--                            <li><a href="#">Customer Service</a></li>--}}
+{{--                            <li><a href="#">Manage Reputation</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
                 </div>
                 <div class="col-xl-4 col-lg-3 col-md-4">
                     <div class="footer-widget mb-40">
-                        <h3>Quick Links</h3>
+                        <h3 style="color: white">Quick Links</h3>
                         <ul>
-                            <li><a href="#">Store Hours</a></li>
-                            <li><a href="#">Brand Assets</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy & Policy</a></li>
+                            <li><a href="{{route('home')}}">Home</a></li>
+                            <li><a href="{{route('about')}}">About</a></li>
+                            <li><a href="{{route('innovations')}}">Innovations</a></li>
+                            <li><a href="{{route('contact-us')}}">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

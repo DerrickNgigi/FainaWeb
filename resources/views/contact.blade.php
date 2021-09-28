@@ -10,7 +10,7 @@
 @section('content')
     <!-- page-title-area start -->
     <div class="page-title-area pos-relative gray-bg pt-90 pb-60 fix"
-         style="background-image: url(img/bg/page-title-bg.jpg);">
+         style="background-image: url(img/bg/page-title-bg.png);">
         <div class="shape-slider">
             <img class="shape shape-2  " src="img/shape/shape2.png" alt="">
             <img class="shape shape-4 " src="img/shape/shape3.png" alt="">
@@ -21,8 +21,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="page-title mb-30">
-                        <h3>Contact Us</h3>
-                        <p>We are only a call away</p>
+                        <h3 style="color: white">Contact Us</h3>
+                        <p style="color: white">We are only a call away</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -45,7 +45,7 @@
                     <div class="cta-content mb-30">
 
                         <p>DO YOU HAVE ANY PROJECT ? </p>
-                        <h1>Let’s Talk About Business Solutions With Us</h1>
+                        <h1>Let’s Talk About Business Solutions</h1>
                         <div class="cta-2-button">
                             <a class="x-btn x-btn-white" href="#contact"><span class="btn-text">contact us <i
                                         class="far fa-long-arrow-right"></i></span> </a>
@@ -54,7 +54,9 @@
                 </div>
                 <div class="col-xl-4 col-lg-4">
                     <div class="ctas-info mb-30">
-                        <h3>+254 795328722</h3>
+                        <h3>+254 790566616</h3>
+                        <br>
+                        <h3>+254 706086296</h3>
                     </div>
                 </div>
             </div>
@@ -94,7 +96,7 @@
                                 </div>
                                 <div class="c-info-text">
                                     <h4>Email</h4>
-                                    <p>fainaconsultancy@gmail.com</p>
+                                    <p>info@fainatech.com</p>
                                 </div>
                             </li>
                             <li>
@@ -103,7 +105,7 @@
                                 </div>
                                 <div class="c-info-text">
                                     <h4>Phone</h4>
-                                    <p>+254 795 328722</p>
+                                    <p>+254 790566616 / +254 706086296</p>
                                 </div>
                             </li>
                         </ul>

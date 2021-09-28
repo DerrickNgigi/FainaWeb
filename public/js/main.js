@@ -534,10 +534,10 @@ if ($("[data-aos]").length) {
 		// For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 		var mapOptions = {
 			// How zoomed in you want the map to start at (always required)
-			zoom: 11,
+			zoom: 16,
 			scrollwheel: false,
 			// The latitude and longitude to center the map (always required)
-			center: new google.maps.LatLng(23.810331, 90.412521), // New York
+			center: new google.maps.LatLng(-1.1816338211606299, 36.93620281078223), // Chandaria
 			// This is where you would paste any style found on Snazzy Maps.
 			styles: [{ "featureType": "landscape", "elementType": "all", "stylers": [{ "visibility": "on" }] }, { "featureType": "poi.business", "elementType": "all", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "poi.business", "elementType": "labels", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "poi.park", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "poi.school", "elementType": "all", "stylers": [{ "visibility": "on" }] }, { "featureType": "poi.sports_complex", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit.station.bus", "elementType": "all", "stylers": [{ "visibility": "on" }, { "saturation": "21" }, { "weight": "4.05" }] }]
 		};
@@ -550,7 +550,7 @@ if ($("[data-aos]").length) {
 
 		// Let's also add a marker while we're at it
 		var marker = new google.maps.Marker({
-			position: new google.maps.LatLng(23.810331, 90.412521),
+			position: new google.maps.LatLng(-1.1816338211606299, 36.93620281078223),
 			map: map,
 			title: 'Cryptox'
 		});

@@ -137,28 +137,28 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-3 col-md-4">
-                    <div class="footer-widget mb-40">
-                        <h3>About Us</h3>
-                        <ul>
-                            <li><a href="#">Managed Website</a></li>
-                            <li><a href="#">Power Tools</a></li>
-                            <li><a href="#">Marketing Service</a></li>
-                            <li><a href="#">Customer Service</a></li>
-                            <li><a href="#">Manage Reputation</a></li>
-                        </ul>
-                    </div>
+{{--                    <div class="footer-widget mb-40">--}}
+{{--                        <h3>About Us</h3>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#">Managed Website</a></li>--}}
+{{--                            <li><a href="#">Power Tools</a></li>--}}
+{{--                            <li><a href="#">Marketing Service</a></li>--}}
+{{--                            <li><a href="#">Customer Service</a></li>--}}
+{{--                            <li><a href="#">Manage Reputation</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
                 </div>
                 <div class="col-xl-4 col-lg-3 col-md-4">
-                    <div class="footer-widget mb-40">
-                        <h3>Quick Links</h3>
-                        <ul>
-                            <li><a href="#">Store Hours</a></li>
-                            <li><a href="#">Brand Assets</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy & Policy</a></li>
-                        </ul>
-                    </div>
+{{--                    <div class="footer-widget mb-40">--}}
+{{--                        <h3>Quick Links</h3>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#">Store Hours</a></li>--}}
+{{--                            <li><a href="#">Brand Assets</a></li>--}}
+{{--                            <li><a href="#">Investor Relations</a></li>--}}
+{{--                            <li><a href="#">Terms of Service</a></li>--}}
+{{--                            <li><a href="#">Privacy & Policy</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>

@@ -97,7 +97,7 @@ button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Poppins', sans-serif;
-	color: #233d63;
+	color: #1B1D3D;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 600;
@@ -143,7 +143,7 @@ p {
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 28px;
-	color: #7b8491;
+	color: #1B1D3D;
 	margin-bottom: 15px;
 	transition: .3s;
 }
@@ -3530,7 +3530,7 @@ ul.cat li a:hover {
 	left: 5%;
 	bottom: 30%;
 	animation: animationFramesOne 30s alternate infinite linear;
-	-webkit-animation:;
+	-webkit-animation: animationFramesOne 30s alternate infinite linear;
 }
 .shape-pr-2{
 	right: 20%;
