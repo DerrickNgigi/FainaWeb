@@ -1,0 +1,84 @@
+.radio_custom {
+    width: 12px !important;
+    height: 12px !important;
+}
+.thisText {
+    font-family: sans-serif;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 24px;
+    max-width: 600px;
+    position: relative;
+}
+.thisText:before {
+    content: '';
+    display: block;
+    width: 8em;
+    height: 2px;
+    background: #ccc;
+    position: absolute;
+    left: -30%;
+    top: 50%;
+    z-index: -2;
+}
+.thisText:after {
+    content: '';
+    display: block;
+    width: 8em;
+    height: 2px;
+    background: #ccc;
+    position: absolute;
+    right: -30%;
+    top: 50%;
+    z-index: -2;
+}
+span {
+    background: #fff;
+}
+
+#custom_amount {
+}
+
+.showInput {
+    display: block;
+}
+.hideInput {
+    display: none;
+}
+.customInput {
+    width: 300px !important;
+}
+
+#registration_form{
+    background:#F8F8F8;
+    padding: 30px;
+}
+
+#main_label{
+    color: #0e1942;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+#registration_form {
+    text-transform: none; !important;
+}
+
+input::placeholder{
+    text-transform: none; !important;
+}
+
+input:required{
+     text-transform: none; !important;
+ }
+input:optional{
+    text-transform: none; !important;
+}
+
+#textarea{
+    text-transform: none; !important;
+}
+

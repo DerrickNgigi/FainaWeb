@@ -82,7 +82,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="soft-fea-list text-center mb-30">
                         <div class="soft-fea-list-img mb-35">
-                            <img src="img/icon/ss-01.png" alt="">
+                            <img src="img/icon/ss-02.png" alt="">
                         </div>
                         <h3>Professional Team</h3>
                         <p>We have an excellent production base and qualified employees. We are a professional team in which everyone specializes in the perfect end result.</p>
@@ -91,7 +91,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="soft-fea-list text-center mb-30">
                         <div class="soft-fea-list-img mb-35">
-                            <img src="img/icon/ss-02.png" alt="">
+                            <img src="img/icon/ss-01.png" alt="">
                         </div>
                         <h3>Cost-Effective</h3>
                         <p>Using computer simulations and  efficient prototyping techniques we help cut the cost of research and design without producing quality of product.</p>
@@ -113,7 +113,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="soft-fea-list text-center mb-30">
                         <div class="soft-fea-list-img mb-35">
-                            <img src="img/icon/ss-02.png" alt="">
+                            <img src="img/icon/fea-3.png" alt="">
                         </div>
                         <h3>Social Impact</h3>
                         <p>We are driven by initiatives to empower and create positive impact. We give back to the community through sensitization of technology education in slums.</p>
@@ -122,7 +122,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="soft-fea-list text-center mb-30">
                         <div class="soft-fea-list-img mb-35">
-                            <img src="img/icon/ss-03.png" alt="">
+                            <img src="img/icon/fea-3-2.png" alt="">
                         </div>
                         <h3>Grow Local Abilities</h3>
                         <p>Youth employment stands at 65% in Kenya, your trust can rewrite this statistic. Have the taste of rich local tech talents with the country's best minds in the Faina Team. </p>

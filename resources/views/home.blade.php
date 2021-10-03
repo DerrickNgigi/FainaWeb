@@ -113,7 +113,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="feal-list-4-item active mb-30">
                         <div class="fea-list-4-img mb-40">
-                            <img src="img/icon/gea-02.png" alt="">
+                            <img src="img/icon/gea-03.png" alt="">
                         </div>
                         <h3>PCB Design</h3>
                         <p>We design customized Printed Circuits Boards (PCBs) for custom projects and products for all preferable micro-controllers. We also help with fabrications through our partner companies. </p>
@@ -123,7 +123,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="feal-list-4-item mb-30 active">
                         <div class="fea-list-4-img mb-40">
-                            <img src="img/icon/gea-03.png" alt="">
+                            <img src="img/icon/gea-02.png" alt="">
                         </div>
                         <h3>3D Printing</h3>
                         <p>Bring your 3D Designs and custom models to reality with 3D printing in Faina. We offer first class product policing and post processing giving your that classical look on your products.</p>
@@ -136,7 +136,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="feal-list-4-item mb-30 active">
                         <div class="fea-list-4-img mb-40">
-                            <img src="img/icon/gea-03.png" alt="">
+                            <img src="img/icon/rd-01.png" alt="">
                         </div>
                         <h3>Software Development </h3>
                         <p>Business and Projects are never quite complete without automation and simplicity of software. We develop web and mobile applications.</p>
@@ -146,7 +146,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="feal-list-4-item mb-30 active">
                         <div class="fea-list-4-img mb-40">
-                            <img src="img/icon/gea-03.png" alt="">
+                            <img src="img/icon/rd-02.png" alt="">
                         </div>
                         <h3>Artificial Intelligence and Machine Learning</h3>
                         <p>Want a touch of sophistication in your business and project. Worry no more Faina go you. We develop artificial intelligence and machine learning applications i.e image recognition apps </p>

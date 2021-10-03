@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="<?php echo url('/'); ?>/css/default.css">
     <link rel="stylesheet" href="<?php echo url('/'); ?>/css/style.css">
     <link rel="stylesheet" href="<?php echo url('/'); ?>/css/responsive.css">
+    <link rel="stylesheet" href="<?php echo url('/'); ?>/css/custom.css" />
 </head>
 <body>
 
@@ -203,6 +204,7 @@
 <script src="<?php echo url('/'); ?>/js/jquery.scrollUp.min.js"></script>
 <script src="<?php echo url('/'); ?>/js/imagesloaded.pkgd.min.js"></script>
 <script src="<?php echo url('/'); ?>/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo url('/'); ?>/js/custom.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 <script src="<?php echo url('/'); ?>/js/plugins.js"></script>
 <script src="<?php echo url('/'); ?>/js/main.js"></script>

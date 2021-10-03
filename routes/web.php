@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ScholarshipRegistrationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,16 @@ Route::get('/Faina-We-listen-then-and-find-an-innovative-solution', function () 
 })->name('contact-us');
 
 Route::get('/shambaAssistant', function () {
-    return view('shambaAssistant.shambaHome');
+    return view('home');
 })->name('fainaAgriculture');
 
+Route::get('/p4cda_e-learning_scholarship', function () {
+    return view('e-learning_scholarship_registration');
+})->name('p4cda_e-learning_scholarship');
+
+Route::get('/p4cda_e-learning_scholarship', [ScholarshipRegistrationController::class, 'create'])->name('p4cda_e-learning_scholarship');
+Route::post('/p4cda_e-learning_scholarship', [ScholarshipRegistrationController::class, 'store']) ->name('p4cda_e-learning_scholarship');
+
+//Route::post('/p4cda_e-learning_scholarship', function () {
+//    return view('e-learning_scholarship_registration');
+//})->name('fainaAgriculture');
