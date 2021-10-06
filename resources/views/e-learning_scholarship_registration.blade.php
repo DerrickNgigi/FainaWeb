@@ -56,14 +56,18 @@
                         <h2 class="mb-20">E-learning Scholarship Application</h2>
                     </div>
                 </div>
-                @if(session()->has('message'))
-                    <div class="alert alert-success">
-                        {{ session()->get('message') }}
-                    </div>
-                @endif
+{{--                @if(session()->has('message'))--}}
+{{--                    <div class="alert alert-success">--}}
+{{--                        {{ session()->get('message') }}--}}
+{{--                    </div>--}}
+{{--                @endif--}}
+                <div class="alert alert-success" role="alert" id="successMsg" style="display: none" >
+                    Thank you for getting in touch!
+                </div>
+
             </div>
             <div id="registration_form" class="contact-form mb-30">
-                <form id="contact-form" method="POST" action="{{ route('p4cda_e-learning_scholarship') }}">
+                <form id="contact-form" method="POST" action="{{ route('p4cda_e-learning_scholarship_submit') }}">
                     @csrf
                     <div class="row">
                         <div class="col-lg-6">
@@ -118,7 +122,7 @@
                                 required
                                 readonly
                                 hidden
-                                value="derrick@p4cda.net"
+                                value="kucandaimentorship.fainatech.com"
                                 placeholder=""
                             />
                         </div>
@@ -374,7 +378,7 @@
                                 id="connectivity"
                                 class="radio_custom"
                                 name="internet_Connectivity"
-                                value="Other"
+
 
                             />
                             <label for="connectivity">Other</label>
@@ -382,8 +386,8 @@
                                 type="text"
                                 id="custom_connect"
                                 class="hideInput customInput"
-                                name="internet_Connectivity"
                                 value=""
+
                             />
                         </div>
                         <div class="col-lg-6">
@@ -634,15 +638,14 @@
                                 type="radio"
                                 id="intern_other"
                                 name="opportunities"
-                                value="other"
                                 class="radio_custom"
+                                value = "Other"
                             />
                             <label for="intern_other">other </label><br />
                             <input
                                 type="text"
                                 id="intern_other_input"
                                 class="hideInput customInput"
-                                name="opportunities"
                                 value=""
                             />
                         </div>
@@ -772,7 +775,7 @@
                         </div>
                     </div>
                 </form>
-                <p class="ajax-response"></p>
+{{--                <p class="ajax-response"></p>--}}
             </div>
         </div>
     </div>

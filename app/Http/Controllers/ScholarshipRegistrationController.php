@@ -70,8 +70,14 @@ class ScholarshipRegistrationController extends Controller
 
         ]);
 
+//        dd($request);
+
         scholarshipRegistration::create($request->all());
-        return redirect()->back()->with('Application successfully completed. We will get back to you soon');
+//        return redirect()->back()->with('Application successfully completed. We will get back to you soon');
+//        return response()->json(['success'=>'Successfully']);
+        return url('/p4cda_e-learning_scholarship_success');
+//        return Redirect::route("scholarship_response");
+//        return route('scholarship_response');
 
 
     }
@@ -119,5 +125,16 @@ class ScholarshipRegistrationController extends Controller
     public function destroy(scholarshipRegistration $scholarshipRegistration)
     {
         //
+    }
+
+    public function redirectCheck ()
+    {
+        //Check to access route on through a redirect from Registrations
+        if ( !request()->is('/p4cda_e-learning_scholarship_success') && url()->previous() !=  url('/p4cda_e-learning_scholarship') ) {
+            return redirect()->to('/p4cda_e-learning_scholarship');
+        }
+        else{
+            return view('scholarship_response');
+        }
     }
 }

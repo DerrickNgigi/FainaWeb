@@ -42,7 +42,12 @@ Route::get('/p4cda_e-learning_scholarship', function () {
 })->name('p4cda_e-learning_scholarship');
 
 Route::get('/p4cda_e-learning_scholarship', [ScholarshipRegistrationController::class, 'create'])->name('p4cda_e-learning_scholarship');
-Route::post('/p4cda_e-learning_scholarship', [ScholarshipRegistrationController::class, 'store']) ->name('p4cda_e-learning_scholarship');
+Route::post('/p4cda_e-learning_scholarship', [ScholarshipRegistrationController::class, 'store']) ->name('p4cda_e-learning_scholarship_submit');
+Route::get('/p4cda_e-learning_scholarship_success', [ScholarshipRegistrationController::class, 'redirectCheck']) ->name('p4cda_e-learning_scholarship_success');
+
+//Route::get('/p4cda_e-learning_scholarship_success', function () {
+//    return view('scholarship_response');
+//})->name('p4cda_e-learning_scholarship_success');
 
 //Route::post('/p4cda_e-learning_scholarship', function () {
 //    return view('e-learning_scholarship_registration');
